@@ -10,7 +10,7 @@ int sio_putc(int c);
 #endif
 int printf(const char *format, ...);
 int puts(const char *buffer);
-int snprintf(char *str, int len, const char *fmt, ...);
+int snprintf(char * restrict str, size_t size, const char * restrict format, ...);
 int vsnprintf(char *b, int len, const char *fmt, va_list pvar);
 
 #ifdef CALLBACK_DEBUG

@@ -28,7 +28,7 @@ SBIOS_DEBUG = no
 PAD_MOVE_SCREEN = yes
 
 # Choose toolchain for simple kernel example:
-NEW_KERNEL_TOOLCHAIN = no
+NEW_KERNEL_TOOLCHAIN = yes
 
 SHARED_MEM_DEBUG = yes
 

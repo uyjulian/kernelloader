@@ -1,5 +1,5 @@
 include ../../config.mk
-EE_PREFIX = ee-
+EE_PREFIX = mips64r5900el-ps2-elf-
 EE_CC = $(EE_PREFIX)gcc
 EE_OBJCOPY = $(EE_PREFIX)objcopy
 

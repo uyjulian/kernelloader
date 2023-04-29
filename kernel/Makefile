@@ -1,8 +1,8 @@
 include ../config.mk
 
 ifeq ($(NEW_KERNEL_TOOLCHAIN),yes)
-CROSS_COMPILE = mips64el-linux-gnu-
-BIN2S=/usr/local/ps2dev/ps2sdk/bin/bin2s
+CROSS_COMPILE = mips64r5900el-linux-gnu-
+BIN2S=$(PS2SDK)/bin/bin2s
 LINKSCRIPT = elf32ltsmipn32.x
 else
 CROSS_COMPILE = ee-
